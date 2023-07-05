@@ -1,0 +1,20 @@
+html,
+body, 
+.dropdown-menu{
+    background-color: var(--white-color);
+}
+
+header,
+.content {
+    margin: 2rem 2rem;
+    background-color: var(--ligth-color);
+    color: var(--dark-color);
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow-one) 0px 2px 5px -1px, var(--shadow-two) 0px 1px 3px -1px;
+}
+
+
+.content{
+    padding: 1rem 2.5rem;
+}
+

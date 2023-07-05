@@ -7,6 +7,10 @@
 
      <link rel="icon" href="favicon.png">
 
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap" rel="stylesheet">
+
      <!-- BOOTSTRAP CSS -->
      <link rel="stylesheet" href="css/bootstrap/bootstrap-reboot.css">
      <link rel="stylesheet" href="css/bootstrap/bootstrap-grid.css">
@@ -23,30 +27,30 @@
      <title>Document</title>
 </head>
 
-<body id="body"> 
+<body id="body">
      <header>
           <nav class="navbar navbar-light p-2 flex-row">
                <div class="container-fluid">
                     <a class="navbar-brand flex-row flex logo align-items-center justify-content-center" href="#">
                          <img src="img/icon.png" alt="" width="45" height="45" class="d-inline-block align-text-top">
-                         <h3 class="title">ByteWise</h3>
+                         <h3 class="title font-weight-bold">ByteWise</h3>
                     </a>
 
                     <div class="dropdown">
-                         <a class="btn dropdown-toggle flex justify-content-between align-items-center" href="" role="button" data-bs-toggle="dropdown"
-                              aria-expanded="false">
+                         <a class="btn dropdown-toggle flex justify-content-between align-items-center" href=""
+                              role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               <ion-icon name="logo-apple-ar" class="icon"></ion-icon>
                               <small>VER MAIS</small>
                          </a>
 
                          <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Sobre</a></li>
-                              <li><a class="dropdown-item" href="#">Serviços</a></li>
-                              <li><a class="dropdown-item" href="#">Contactos</a></li>
+                              <li><a class="dropdown-item" href="#sobre">Sobre</a></li>
+                              <li><a class="dropdown-item" href="#servicos">Serviços</a></li>
+                              <li><a class="dropdown-item" href="#contactos">Contactos</a></li>
+                              <li><a class="dropdown-item" href="#desenvolvedor">Sobre o Criador</a></li>
                               <li class="dropdown-item">
                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" role="switch"
-                                             id="color-mode">
+                                        <input class="form-check-input" type="checkbox" role="switch" id="color-mode">
                                         <label class="form-check-label" for="color-mode">
                                              <ion-icon name="invert-mode-outline" class="icon"></ion-icon>
                                         </label>
@@ -58,12 +62,77 @@
           </nav>
      </header>
      <main>
-          <section id="about" class="content flex flex-column justify-content-center ">
-               <h2 class="">Sobre</h2>
-               <a href="">sdfkvjsdfa</a>
-               <img width="100rem" height="100rem" src="img/img1.png" alt="">
+
+          <section class="content imgBg  flex flex-column justify-content-center align-items-center">
+               <img src="img/icon.png" alt="" class="bytewise">
+               <h1 class="w-title font-weight-bold">ByteWise <a class="g-link" href="#header">Visão</a> Além Da <a class="g-link"
+                         href="#header">Tecnologia</a></h1>
+               <p class="w-title">Qualidade e maiestria na assistência, </p>
           </section>
 
+          <section id="sobre" class="content flex flex-column justify-content-center ">
+               <h2 class="font-weight-bold">Sobre</h2>
+               <section class="about">
+                    <div class="about-text">
+                         <P>Criada por Venâncio Luís Wapinda em 2022, anteriormente chamada de <a id="a-line"
+                                   class="g-link" href="#ByteWise">WorldTech.ao</a>, ressurgindo como <a id="a-line"
+                                   class="g-link" href="#ByteWise">ByteWise</a> em 2023, prestando serviços como:
+                         </P>
+                         <ul>
+                              <li>Desenvolvimnto de Web Sites e Bloges.</li>
+                              <li>Reparação e Manutenção de Equipaentos Informáticos.</li>
+                              <li>Design Gráficos.</li>
+                         </ul>
+                         <P>Procurando excelência em serviços de desenvolvimento web, reparação e manutenção de
+                              equipamentos informáticos e design gráfico? A ByteWase é a escolha certa! Nossa equipe
+                              altamente qualificada oferece soluções personalizadas, qualidade excepcional e resultados
+                              impressionantes. Confie em nós para impulsionar sua presença online, resolver problemas
+                              técnicos e criar designs cativantes. Venha conhecer a ByteWase hoje mesmo!
+                         </P>
+                         <div class="social">
+                              <a href="">
+                                   <ion-icon class="social-midia" name="logo-instagram"></ion-icon>
+                              </a>
+                              <a href="+244945542759">
+                                   <ion-icon class="social-midia" name="logo-whatsapp"></ion-icon>
+                              </a>
+                              <a href="">
+                                   <ion-icon class="social-midia" name="logo-facebook"></ion-icon>
+                              </a>
+                              <a href="">
+                                   <ion-icon class="social-midia" name="logo-github"></ion-icon>
+                              </a>
+                              <ion-icon class="social-midia" name="logo-google"></ion-icon>
+                              </a>
+                         </div>
+                    </div>
+                    <div class="about-img hyde-mobile flex flex-column justify-content-center align-items-center">
+                         <!-- <img src="img/w_logo.png" alt="" class="bytewise-larg"> -->
+                         <img src="img/imagem/imagem2.svg" class="imagem2" alt="">
+                    </div>
+               </section>
+          </section>
+
+          <section id="servicos" class="content imgBg  flex flex-row align-items-center">
+               <section class="service-element">
+                    <div class="bytewise-larg left-shadow">
+                         <ion-icon name="code-slash-outline" class="icon"></ion-icon>
+                    </div>
+                    <h5 class="w-title hyde-mobile font-weight-bold">Web Development</h5>
+               </section>
+               <section class="service-element">
+                    <div class="bytewise-larg main-shadow ">
+                         <ion-icon name="desktop-outline" class="icon"></ion-icon>
+                    </div>
+                    <h5 class="w-title hyde-mobile font-weight-bold">Equipment Repair</h3>
+               </section>
+               <section class="service-element">
+                    <div class="bytewise-larg rigth-shadow ">
+                         <ion-icon name="create-outline" class="icon"></ion-icon>
+                    </div>
+                    <h5 class="w-title hyde-mobile font-weight-bold">Graphic Design</h5>
+               </section>
+          </section>
      </main>
      <footer>
 

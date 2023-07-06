@@ -65,12 +65,7 @@ header,
 
 #servicos {
     padding: 0 5rem;
-    justify-content: space-evenly;    
-    width: 95%;
-    height: 20rem;    
-    background-image: url('../img/img1.jpg');
-    background-size: cover;
-    background-attachment: fixed;
+    justify-content: space-evenly;
 }
 
 .service-element,

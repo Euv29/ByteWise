@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap');
 
 * {
-    font-family: 'Quicksand', sans-serif;
-        outline: none;
-    border: none;
+     font-family: 'Quicksand', sans-serif;
+     outline: none;
+     border: none;
 }
 
 
@@ -14,12 +14,12 @@
      --root-color: #18d777;
      --midium-color: #39e991;
      --small-color: #67eeaa;
-     --dark-color: #262833;
-     --gray-color: #3c3f50;
-     --white-color: #ffffff;
-     --ligth-color: #ececec;
-     --shadow-one: #32325d40;
-     --shadow-two: #0000004d;
+     --dark-color: #ffffff;
+     --gray-color: #ececec;
+     --white-color: #262833;
+     --ligth-color: #3c3f50;
+     --shadow-one: #32325d5e;
+     --shadow-two: #000000cc;
 }
 
 .dark-mode:root {
@@ -27,12 +27,12 @@
      --root-color: #18d777;
      --midium-color: #39e991;
      --small-color: #67eeaa;
-     --dark-color: #ffffff;
-     --gray-color: #ececec;
-     --white-color: #262833;
-     --ligth-color: #3c3f50;
-     --shadow-one: #32325d5e;
-     --shadow-two: #000000cc;
+     --dark-color: #262833;
+     --gray-color: #3c3f50;
+     --white-color: #ffffff;
+     --ligth-color: #ececec;
+     --shadow-one: #32325d40;
+     --shadow-two: #0000004d;
 }
 
 
@@ -206,6 +206,6 @@ li {
      box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 
-.imagem2{
+.imagem2 {
      height: 370px;
 }
